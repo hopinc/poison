@@ -26,7 +26,7 @@ First, add Poison to your `mix.exs` dependencies:
 
 ```elixir
 def deps do
-  [{:poison, "~> 5.0"}]
+  [{:poison, git: "https://github.com/hopinc/poison.git"}]
 end
 ```
 
